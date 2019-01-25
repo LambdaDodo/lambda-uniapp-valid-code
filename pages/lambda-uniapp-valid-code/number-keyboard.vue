@@ -1,14 +1,14 @@
 <template>
 	<view id="number-keyboard-component" class="numberkeyboard" v-show="numberKeyboardPopupVisible">
 		<view class="title" @tap="close"> 
-		 <image src="../../static/down.png" style="width: 30upx;height: 30upx;"></image>
+		 <image src="../../static/lambda-uniapp-valid-code/down.png" style="width: 30upx;height: 30upx;"></image>
 		 </view>
 		<view class="keys">
 			<view class="key button" v-for="num in config.loop" :key="num.key" @tap="number(num.number)">{{num.number}}</view>
 			<view class="key button" style="background: #eeeeee;"></view>
 			<view class="key button" @tap="number(0)">0</view>
 			<view class="key button" @tap="del" style="background: #eeeeee;">
-				<image src="../../static/delete.png" style="width: 50upx;height: 50upx;"></image>
+				<image src="../../static/lambda-uniapp-valid-code/delete.png" style="width: 50upx;height: 50upx;"></image>
 			</view>
 		</view>
 	</view>
