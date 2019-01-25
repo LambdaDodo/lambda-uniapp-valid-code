@@ -1,0 +1,21 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "Lambda"
+			}
+		}, {
+			"path": "pages/index/valid-code",
+			"style": {
+				"navigationBarTitleText": "Valid Code"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "Lambda",
+		"navigationBarBackgroundColor": "#fa541c",
+		"backgroundColor": "#F8F8F8"
+	}
+}
