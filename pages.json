@@ -1,12 +1,12 @@
 {
 	"pages": [ 
 		{
-			"path": "pages/index/index",
+			"path": "pages/lambda-uniapp-valid-code/index",
 			"style": {
 				"navigationBarTitleText": "Lambda"
 			}
 		}, {
-			"path": "pages/index/valid-code",
+			"path": "pages/lambda-uniapp-valid-code/valid-code",
 			"style": {
 				"navigationBarTitleText": "Valid Code"
 			}
